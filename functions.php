@@ -1,6 +1,7 @@
 <?php 
     //Verbindung mit Datenbanksystem herstellen	   
-    $servername = "127.0.0.1:3306";
+    /*  USE FOR DOMAIN   $servername = "127.0.0.1:3306"; */
+    $servername = "localhost:3306";
     $username = "Web";
     $password = "W_9bdb23";
     $database = "mainstage"; 
