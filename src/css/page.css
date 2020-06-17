@@ -1,138 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* ----------------------------------------------------------------------------------------------------------- Intro */
-
-/* .intro-img {
-    position: relative;
-    left: 75px;
-    margin: auto auto auto 0;
-    height: 90vh;
-    width: 700px;
-    box-shadow: 0px 0px 15px 0px rgba(165, 165, 165, 0.3);
-}
-
-#left {
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
-    width: 60%;
-    height: 100%;
-    display: flex;
-
-}
-
-#right {
-    position: relative;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../test.jpg");
-    height: 75%;
-    width: 300px;
-    margin: auto 0 auto auto;
-    overflow: hidden;
-    transition: width 0.5s;
-    border-radius: 5px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    box-shadow: 0px 0px 25px 0px rgba(165, 165, 165, 0.4);
-}
-
-#right:hover {
-    width: 650px;
-}
-
-
-
-#right:hover>.overlay-black {
-    background: rgba(190, 190, 190, 0);
-} */
-
-
-
-/* #intro-tab {
-    position: relative;
-    padding: 75px;
-    margin: auto;
-    z-index: 0;
-    display: block;
-    width: 45%;
-}
-
-#intro-tab::before {
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    height: 450px;
-    width: 450px;
-    background: white;
-    border-radius: 100%;
-    content: "";
-    box-shadow: 0px 0px 15px 0px rgba(165, 165, 165, 0.2);
-} */
 
 @media (max-width: 768px) {
-/*     #intro-tab {
-        position: relative;
-        z-index: 0;
-        display: block;
-        margin: auto;
-        width: 100%;
-    } */
-
-}
-
-
-/* #intro-tab>h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    font-family: "Source Sans Pro";
-    color: #383b41;
-    line-height: 1.2;
-    background-image: url("https://images.pexels.com/photos/3034871/pexels-photo-3034871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: cover;
-    background-position: top;
-}
-
-#intro-tab>h2 {
-    font-family: "Source Sans Pro";
-    font-size: 2rem;
-    font-weight: 500;
-    color: #383b41;
-    background-clip: none;
-    -webkit-background-clip: none;
-    -webkit-text-fill-color: #668a9d;
 
 
 }
-
-#intro-tab>p {
-    color: #888ea0;
-    font-size: 1.3rem;
-    font-weight: 100;
-}
-
-
-
-
-#intro-page {
-    display: flex;
-    flex: 0;
-    height: 100vh;
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
-} */
 
 #project-container-banner {
     position: absolute;
@@ -271,48 +144,6 @@
     font-weight: 300;
     line-height: 1.6;
 }
-
-
-/* ----------------------------------------------------------------------------------------------------------- Attention Bar */
-
-/* #attention-bar {
-    position: fixed;
-    bottom: 0;
-    width: calc(100vw - 150px);
-    padding: 10px 75px;
-    background: #fff;
-    box-shadow: 0 7px 21px 0 rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: row;
-    z-index: 2;
-}
-
-#attention-bar>div {
-    margin: auto;
-    text-align: center;
-}
-
-#attention-bar>div>span {
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-    font-weight: 700;
-    color: #393741;
-    font-family: "Source Sans Pro";
-}
-
-#attention-bar>button {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    color: #888ea0;
-    transition: color 0.5s;
-    font-size: 1.5rem;
-}
-
-#attention-bar>button:hover {
-    color: #393741;
-} */
-
 
 /* ----------------------------------------------------------------------------------------------------------- Projects Style */
 
@@ -485,11 +316,6 @@
     padding: 2rem 0;
   }
 
-
-
-
-
-
   .coverimage {
     margin-bottom: 3rem;
     width: 100%;
@@ -503,14 +329,12 @@
   .headline {
       font-size: 2.4rem;
       color: #272e41;
-
   }
 
   .subheadline {
     margin: 0 0 1rem 0;
     font-size: 1.6rem;
     color: rgba(39, 46, 65, 0.50);
-
   }
 
   .type {

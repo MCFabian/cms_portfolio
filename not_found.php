@@ -1,5 +1,5 @@
 <!doctype html>
-<?php include ('head.php'); ?>
+<?php include ('pages/head.php'); ?>
 <head>
 <title>
     404 - Verlaufen?
@@ -14,7 +14,7 @@
                     <a class="center link" href="index.php"><i class="icon">home</i>Home</a>
                 </div>
             </div>  
-            <?php include ('footer.php'); ?>
+            <?php include ('pages/footer.php'); ?>
         </div>
 
     </div>

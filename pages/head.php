@@ -22,23 +22,27 @@
 
 
 		<!--< CSS Stylesheets>-->
-		<link rel="stylesheet" type="text/css" href="css/global.css">
-		<link rel="stylesheet" type="text/css" href="css/page.css">
-		<link rel="stylesheet" type="text/css" href="css/projects.css">
-		<link rel="stylesheet" type="text/css" href="css/hamburger.css">
+		<link rel="stylesheet" type="text/css" href="src/css/global.css">
+		<link rel="stylesheet" type="text/css" href="src/css/page.css">
+		<link rel="stylesheet" type="text/css" href="src/css/projects.css">
+		<link rel="stylesheet" type="text/css" href="src/css/hamburger.css">
 
 
 		<!--< Webfonts>-->
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700&display=swap" rel="stylesheet"> -->
+<!-- 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+		<!--< Offlinefonts>-->
+		<link href="https://verwaltung.fabianr.de/Fontspace/css/fonts.css" rel="stylesheet"> 
+
+
 
 		<!--< Webfonts>-->
-		<script language="javascript" type="text/javascript" src="js/bb.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800&display=swap" rel="stylesheet">
+		<script language="javascript" type="text/javascript" src="src/js/bb.js"></script>
+<!-- 		<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"> -->
+<!-- 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ --><!-- 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet"> -->
 
 
 		<!-- Set Viewport-->

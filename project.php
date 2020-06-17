@@ -1,5 +1,5 @@
 <!doctype html>
-<?php include ('head.php'); ?>
+<?php include ('pages/head.php'); ?>
 <?php cookie(); ?> 
         <div id="page-content">
         <div class="grid-block nobg">
@@ -13,7 +13,7 @@
             
 
         </div>
-            <?php include ('footer.php'); ?>
+        <?php include ('pages/footer.php'); ?>
         </div>
 
     </div>

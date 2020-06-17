@@ -120,7 +120,7 @@
         }
    
 
-        function products() {
+/*         function products() {
 			global $connection;
             //SQL-Zugriff auf Datensaetze
             $query = $connection->prepare("SELECT cms_projects.id AS id, cms_projects.path, cms_projects.cover, cms_projects.cover, cms_projects.headline, cms_projects.subheadline, T_Types.name AS 'type', T_Clients.name AS 'client' FROM cms_projects, T_Clients, T_Types WHERE cms_projects.client = T_Clients.p_client_nr AND cms_projects.type = T_Types.p_type_nr AND cms_projects.active = 1");
@@ -151,13 +151,13 @@
                             </div>
                         </div>
 
-                        <div class='box-background' style=\"background-image: url('$path$cover');\"></div>
+                        <div class='box-background' style=\"background-image: url('src/$path$cover');\"></div>
 
                     </div>
                 ";
-            }
+            } 
 
-        }; //Ende der WHILE-Schleife
+        };*/
 
         function productsnew() {
 			global $connection;
@@ -179,7 +179,7 @@
                 echo "
                         <div title='$headline' onclick=\"location.href='project.php?id=$id'\" class='box--new'>
                             <div class='box-inner-new'>
-                                <img src='$path$cover' alt='$headline'>
+                                <img src='src/$path$cover' alt='$headline'>
                             </div>
                             <strong>$headline</strong> <br> <small>$subheadline</small>
                         </div>
@@ -235,7 +235,7 @@
         }
 
 
-        function viewer (string $projectid){
+/*         function viewer (string $projectid){
             global $connection;
             //SQL-Zugriff auf Datensaetze
             $query = $connection->prepare("SELECT cms_projects.cover AS coverimg, cms_projects.headline, cms_projects.subheadline, T_Clients.name AS pclient, T_Types.name AS ptype, cms_projects.onlinedate, cms_projects.projecttext, cms_projects.hint, cms_projects.path, cms_projects.path, cms_projects.img1, cms_projects.img2, cms_projects.img3, cms_projects.img4, cms_projects.img5, cms_projects.img6 FROM cms_projects, T_Types, T_Clients WHERE cms_projects.type = T_Types.p_type_nr AND cms_projects.client = T_Clients.p_client_nr AND cms_projects.id = $projectid;");
@@ -270,7 +270,7 @@
 
                 echo "
                 <div class=\"coverimage\">
-                    <img src=\"$path$img1\" alt='$headline'>
+                    <img src=\"src/$path$img1\" alt='$headline'>
                 </div>
                 <h1 class='headline'>$headline</h1>
                 <h2 class='subheadline'>$subheadline</h2>
@@ -288,7 +288,7 @@
                 } 
                 else 
                 {
-                echo "<img class='projectimage' src='$path$img2' alt='$headline'>";
+                echo "<img class='projectimage' src='src/$path$img2' alt='$headline'>";
                 }
 
                 if($img3 == "0") 
@@ -297,7 +297,7 @@
                 } 
                 else 
                 {
-                echo "<img class='projectimage' src='$path$img3' alt='$headline'>";
+                echo "<img class='projectimage' src='src/$path$img3' alt='$headline'>";
                 }
 
                 if($img4 == "") 
@@ -306,7 +306,7 @@
                 } 
                 else 
                 {
-                echo "<img class='projectimage' src='$path$img4' alt='$headline'>";
+                echo "<img class='projectimage' src='src/$path$img4' alt='$headline'>";
                 }
 
                 if($img5 == "") 
@@ -315,7 +315,7 @@
                 } 
                 else 
                 {
-                echo "<img class='projectimage' src='$path$img5' alt='$headline'>";
+                echo "<img class='projectimage' src='src/$path$img5' alt='$headline'>";
                 }
 
                 if($img6 == "") 
@@ -324,7 +324,7 @@
                 } 
                 else 
                 {
-                echo "<img class='projectimage' src='$path$img6' alt='$headline'>";
+                echo "<img class='projectimage' src='src/$path$img6' alt='$headline'>";
                 }
 
                 if($hint == "") 
@@ -385,7 +385,7 @@
                     ";
                 }
     
-            }; //Ende der WHILE-Schleife
+            }; //Ende der WHILE-Schleife */
 
 
 
@@ -432,7 +432,7 @@
                     <div class=\"flex row rowrewerse\">
                         <div class=\"col-6\">
                             <div class=\"coverimage\">
-                                <img src=\"$path$img1\" alt='$headline'>
+                                <img src=\"src/$path$img1\" alt='$headline'>
                             </div>";
 
                             if($img2 == "0") 
@@ -441,7 +441,7 @@
                             } 
                             else 
                             {
-                            echo "<img class='projectimage' src='$path$img2' alt='$headline'>";
+                            echo "<img class='projectimage' src='src/$path$img2' alt='$headline'>";
                             }
 
                             if($img3 == "0") 
@@ -450,7 +450,7 @@
                             } 
                             else 
                             {
-                            echo "<img class='projectimage' src='$path$img3' alt='$headline'>";
+                            echo "<img class='projectimage' src='src/$path$img3' alt='$headline'>";
                             }
 
                             if($img4 == "0") 
@@ -459,7 +459,7 @@
                             } 
                             else 
                             {
-                            echo "<img class='projectimage' src='$path$img4' alt='$headline'>";
+                            echo "<img class='projectimage' src='src/$path$img4' alt='$headline'>";
                             }
 
                             if($img5 == "0") 
@@ -468,7 +468,7 @@
                             } 
                             else 
                             {
-                            echo "<img class='projectimage' src='$path$img5' alt='$headline'>";
+                            echo "<img class='projectimage' src='src/$path$img5' alt='$headline'>";
                             }
 
                             if($img6 == "0") 
@@ -477,7 +477,7 @@
                             } 
                             else 
                             {
-                            echo "<img class='projectimage' src='$path$img6' alt='$headline'>";
+                            echo "<img class='projectimage' src='src/$path$img6' alt='$headline'>";
                             }
 
                         echo "

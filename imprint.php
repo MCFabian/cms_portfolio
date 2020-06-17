@@ -2,7 +2,7 @@
 
 
 
-<?php include ('head.php'); ?>
+<?php include ('pages/head.php'); ?>
 <?php cookie(); ?> 
 <head>
     <title>Impressum</title>
@@ -12,7 +12,7 @@
             <div class="grid-block">
                <?php getfootercontent(); ?>
             </div>  
-            <?php include ('footer.php'); ?>
+            <?php include ('pages/footer.php'); ?>
         </div>
 
     </div>
