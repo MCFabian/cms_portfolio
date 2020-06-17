@@ -2,8 +2,6 @@
 
 <html>
 	<head>
-		<!-- Seitenname hier -->
-
 		<?php include ('functions.php'); ?>
 
 		<title</title>
@@ -29,21 +27,12 @@
 
 
 		<!--< Webfonts>-->
-<!-- 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700&display=swap" rel="stylesheet"> -->
-<!-- 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-
+		<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 		<!--< Offlinefonts>-->
 		<link href="https://verwaltung.fabianr.de/Fontspace/css/fonts.css" rel="stylesheet"> 
 
-
-
-		<!--< Webfonts>-->
+		<!--< Scripts>-->
 		<script language="javascript" type="text/javascript" src="src/js/bb.js"></script>
-<!-- 		<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"> -->
-<!-- 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- --><!-- 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet"> -->
-
 
 		<!-- Set Viewport-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">

@@ -6,7 +6,7 @@
 </head>
 
         <div id="page-content">
-            <div class="grid-block">
+            <div class="grid-block nobg">
                <?php getprivacycontent(); ?>
             </div>  
             <?php include ('pages/footer.php'); ?>
