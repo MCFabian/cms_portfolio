@@ -3,6 +3,7 @@
     <title>Kontakt</title>
 </head>
 <?php include ('pages/head.php'); ?>
+<?php cookie(1); ?> 
 
         <div id="page-content">
             <div class="grid">

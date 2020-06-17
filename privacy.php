@@ -1,6 +1,5 @@
 <!doctype html>
 <?php include ('pages/head.php'); ?>
-
 <head>
     <title>Datenschutz</title>
 </head>

@@ -5,7 +5,7 @@
 </head>
 
 <?php include ('pages/head.php'); ?>
-<?php cookie(); ?> 
+<?php cookie(1); ?> 
         <div id="page-content">
         <div class="grid-block nobg">
             <div class="flex row">
