@@ -2,8 +2,8 @@
 <head>
     <title>Arbeiten</title>
 </head>
-<?php include ('head.php'); ?>
-<?php cookie(); ?> 
+<?php include ('pages/head.php'); ?>
+<?php cookie(1); ?> 
         <div id="page-content">
             <div class="grid">
                <div class="blocker">
@@ -22,7 +22,7 @@
                 <a href="https://www.behance.net/fabianrauer" class="link">Mehr Projekte ansehen</a>
                 </div>
             </div>
-            <?php include ('footer.php'); ?>
+            <?php include ('pages/footer.php'); ?>
         </div>
 
     </div>

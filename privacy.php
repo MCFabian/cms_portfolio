@@ -1,15 +1,14 @@
 <!doctype html>
-<?php include ('head.php'); ?>
-
+<?php include ('pages/head.php'); ?>
 <head>
     <title>Datenschutz</title>
 </head>
 
         <div id="page-content">
-            <div class="grid-block">
+            <div class="grid-block nobg">
                <?php getprivacycontent(); ?>
             </div>  
-            <?php include ('footer.php'); ?>
+            <?php include ('pages/footer.php'); ?>
         </div>
 
     </div>

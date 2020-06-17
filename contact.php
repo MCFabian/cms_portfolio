@@ -2,7 +2,8 @@
 <head>
     <title>Kontakt</title>
 </head>
-<?php include ('head.php'); ?>
+<?php include ('pages/head.php'); ?>
+<?php cookie(1); ?> 
 
         <div id="page-content">
             <div class="grid">
@@ -17,8 +18,7 @@
                     
                 </div>
             </div> 
-
-            <?php include ('footer.php'); ?>
+            <?php include ('pages/footer.php'); ?>
         </div>
 
     </div>
