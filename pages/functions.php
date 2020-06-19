@@ -36,7 +36,7 @@
                 $function = $row['function'];
 
                 echo "
-                <li><a onclick='$functions' href='$link'>$title</a></li>
+                <li><a onclick='$function' href='$link'>$title</a></li>
                 ";
             }
         }
