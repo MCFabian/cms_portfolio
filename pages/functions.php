@@ -1,4 +1,5 @@
 <?php include ('conncetion.php'); ?>
+<?php include ('sessioncookie.php'); ?>
 <?php 
     function getmenu() {
 			global $connection;
