@@ -15,8 +15,8 @@
 
 		<link rel="stylesheet" type="text/css" href="src/css/global.css">
 		<link rel="stylesheet" type="text/css" href="src/css/page.css">
-		<link rel="stylesheet" type="text/css" href="src/css/projects.css">
 		<link rel="stylesheet" type="text/css" href="src/css/hamburger.css">
+
 
 		<link href="https://verwaltung.fabianr.de/Fontspace/css/fonts.css" rel="stylesheet"> 
 
