@@ -13,6 +13,18 @@
 		<link rel="shortcut icon" type="image/c-icon" sizes="500x500"  href="http://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
 		<link rel="apple-touch-icon-precomposed" sizes="500x500" href="http://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
 
+
+		<?php
+			if(is_array($StyleSheets)){
+				foreach($StyleSheets as $CSSFile){
+					if(is_string($CSSFile) && $CSSFile != ""){?>
+			<link href="src/css/<?php echo$CSSFile;?>.css" rel="stylesheet" type="text/css">
+			<?php
+					}
+				}
+		}?>
+
+
 		<link rel="stylesheet" type="text/css" href="src/css/global.css">
 		<link rel="stylesheet" type="text/css" href="src/css/page.css">
 		<link rel="stylesheet" type="text/css" href="src/css/hamburger.css">
