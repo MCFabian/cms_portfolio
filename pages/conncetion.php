@@ -1,6 +1,6 @@
 <?php 
-    /*  USE FOR DOMAIN   $servername = "127.0.0.1:3306"; */
-    $servername = "localhost:3306";
+    /*  ONLY WORKING ON DOMAIN    */
+    $servername = "127.0.0.1:3306";
     $username = "Web";
     $password = "W_9bdb23";
     $database = "mainstage"; 
