@@ -10,6 +10,16 @@
                     
                 <div class="flex row">
                     <div class="col-6 copy--large grey">
+                            <?php 
+                                echo $_SERVER['PHP_SELF'];
+                                echo "<br>";
+                                echo $_SERVER['SERVER_NAME'];
+                                echo "<br>";
+                                echo $_SERVER['HTTP_HOST'];
+                                echo "<br>";
+
+
+                            ?>
                             <strong class="darkgrey">Kontakt</strong>
                             <br>
                             <div class="modal">

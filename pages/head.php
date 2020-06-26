@@ -28,6 +28,7 @@
 
 	</head>
 <body class="slide-in-fwd-center ">
+	<div id="overlay"></div>
 	<div id="wrapper">
 			<nav id="nav">
 				<ul>
@@ -56,5 +57,5 @@
 					</li>
 				</ul>
 			</div>
-			<div id="overlay"></div>
+
 
