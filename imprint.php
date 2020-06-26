@@ -1,18 +1,14 @@
 <!doctype html>
-
-
-
-<?php include ('head.php'); ?>
-<?php cookie(); ?> 
+<?php include ('pages/head.php'); ?>
+<?php cookie(1); ?> 
 <head>
     <title>Impressum</title>
 </head>
-
         <div id="page-content">
-            <div class="grid-block">
+            <div class="grid-block nobg">
                <?php getfootercontent(); ?>
             </div>  
-            <?php include ('footer.php'); ?>
+            <?php include ('pages/footer.php'); ?>
         </div>
 
     </div>
