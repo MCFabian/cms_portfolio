@@ -2,7 +2,7 @@
 <?php include ('../pages/head.php'); ?>
 <head>
 <title>
-    404 - Verlaufen?
+    500 - Verlaufen?
 </title>
 
 

@@ -185,7 +185,7 @@
             function viewernew (string $projectid){
                 global $connection;
                 //SQL-Zugriff auf Datensaetze
-                $query = $connection->prepare("SELECT cms_projects.cover AS coverimg, cms_projects.headline, cms_projects.subheadline, T_Clients.name AS pclient, T_Types.name AS ptype, cms_projects.onlinedate, cms_projects.projecttext, cms_projects.hint, cms_projects.path, cms_projects.path, cms_projects.img1, cms_projects.img2, cms_projects.img3, cms_projects.img4, cms_projects.img5, cms_projects.img6 FROM cms_projects, T_Types, T_Clients WHERE cms_projects.type = T_Types.p_type_nr AND cms_projects.client = T_Clients.p_client_nr AND cms_projects.id = $projectid;");
+                $query = $connection->prepare("SELECT cms_projects.cover AS coverimg, cms_projects.headline, cms_projects.subheadline, T_Clients.name AS pclient, T_Types.name AS ptype, DATE_FORMAT(cms_projects.onlinedate, '%d.%m.%Y') AS onlinedate, cms_projects.projecttext, cms_projects.hint, cms_projects.path, cms_projects.path, cms_projects.img1, cms_projects.img2, cms_projects.img3, cms_projects.img4, cms_projects.img5, cms_projects.img6 FROM cms_projects, T_Types, T_Clients WHERE cms_projects.type = T_Types.p_type_nr AND cms_projects.client = T_Clients.p_client_nr AND cms_projects.id = $projectid;");
                 
                 $query->execute();
                 $query->setFetchMode(PDO::FETCH_ASSOC); 
@@ -284,7 +284,7 @@
                                     <p class=\"darkgrey contenttext nocols margin0\">
                                         <strong>Typ: </strong>$type <br>
                                         <strong>Klient: </strong>$client <br>
-                                        <strong> $date</strong>";  
+                                        <strong>Erscheinungsdatum: </strong>$date";  
                                         echo"
                                         <br>
                                     </p>

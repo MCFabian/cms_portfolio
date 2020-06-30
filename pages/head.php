@@ -10,27 +10,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<link rel="shortcut icon" type="image/c-icon" sizes="500x500"  href="http://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
-		<link rel="apple-touch-icon-precomposed" sizes="500x500" href="http://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
-
-
-		<?php
-			if(is_array($StyleSheets)){
-				foreach($StyleSheets as $CSSFile){
-					if(is_string($CSSFile) && $CSSFile != ""){?>
-			<link href="src/css/<?php echo$CSSFile;?>.css" rel="stylesheet" type="text/css">
-			<?php
-					}
-				}
-		}?>
-
+		<link rel="shortcut icon" type="image/c-icon" sizes="500x500"  href="https://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
+		<link rel="apple-touch-icon-precomposed" sizes="500x500" href="https://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
 
 		<link rel="stylesheet" type="text/css" href="src/css/global.css">
 		<link rel="stylesheet" type="text/css" href="src/css/page.css">
 		<link rel="stylesheet" type="text/css" href="src/css/hamburger.css">
 
+		<link rel="stylesheet" type="text/css" href="src/css/fonts.css">
 
-		<link href="https://verwaltung.fabianr.de/Fontspace/css/fonts.css" rel="stylesheet"> 
+
+
 
 		<script src="src/js/jquery-3.5.1.min.js"></script>
 		<script language="javascript" type="text/javascript" src="src/js/bb.js"></script>

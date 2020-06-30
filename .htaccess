@@ -1,9 +1,5 @@
+RewriteEngine On
+RewriteRule ^([^\.\?]+)(\?.*)?$ $1.php
 
-
-<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
-    <IfModule mod_headers.c>
-        SetEnvIf Origin "http(s)?://(www\.)?(fabianr.de|test.fabianr.de|intrnet)$" AccessControlAllowOrigin=$0
-        Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
-        Header merge Vary Origin
-    </IfModule>
-</FilesMatch>
+ErrorDocument 404 /errordocs/404.php 
+ErrorDocument 500 /errordocs/500.php 
