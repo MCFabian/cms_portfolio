@@ -115,15 +115,19 @@
                 $client		= $row['client'];
                 $id         = $row['id'];
 
-                echo "
-                        <div title='$headline' onclick=\"location.href='project.php?id=$id'\" class='box--new'>
-                            <div class='box-inner-new'>
-                                <img src='src/$path$cover' alt='$headline'>
-                            </div>
-                            <strong>$headline</strong> <br> <small>$subheadline</small>
-                        </div>
+                if(empty($id)) {
+                    include_once "pages/404.php";
+                }
 
-                ";
+                else {
+                    echo "
+                    <div title='$headline' onclick=\"location.href='project.php?id=$id'\" class='box--new'>
+                        <div class='box-inner-new'>
+                            <img src='src/$path$cover' alt='$headline'>
+                        </div>
+                        <strong>$headline</strong> <br> <small>$subheadline</small>
+                    </div>";
+                }
             }
 
         }; //Ende der WHILE-Schleife
