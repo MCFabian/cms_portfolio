@@ -23,13 +23,13 @@
 
 
 		<script src="src/js/jquery-3.5.1.min.js"></script>
-		<script language="javascript" type="text/javascript" src="src/js/bb.js"></script>
+
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	</head>
-<body class="slide-in-fwd-center ">
+<body id="bodyme" class="slide-in-fwd-center ">
 	<div id="overlay"></div>
 	<div id="wrapper">
 			<nav id="nav">
