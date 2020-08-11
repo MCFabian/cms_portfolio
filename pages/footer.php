@@ -7,3 +7,5 @@
         </div>
     </footer>
 </body>
+
+<script language="javascript" type="text/javascript" src="src/js/bb.js"></script>
