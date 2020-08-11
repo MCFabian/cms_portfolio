@@ -2,7 +2,7 @@
 <?php include ('../pages/head.php'); ?>
 <head>
 <title>
-    404 - Verlaufen?
+    500 - Verlaufen?
 </title>
 
 
@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="../src/css/page.css">
 <link rel="stylesheet" type="text/css" href="../src/css/projects.css">
 <link rel="stylesheet" type="text/css" href="../src/css/hamburger.css">
+<link rel="stylesheet" type="text/css" href="src/css/fonts.css">
 
 </head>
 
