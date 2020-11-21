@@ -16,17 +16,9 @@
 		<link rel="stylesheet" type="text/css" href="src/css/global.css">
 		<link rel="stylesheet" type="text/css" href="src/css/page.css">
 		<link rel="stylesheet" type="text/css" href="src/css/hamburger.css">
-
 		<link rel="stylesheet" type="text/css" href="src/css/fonts.css">
 
-
-
-
 		<script src="src/js/jquery-3.5.1.min.js"></script>
-
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	</head>
 <body id="bodyme" class="slide-in-fwd-center ">
