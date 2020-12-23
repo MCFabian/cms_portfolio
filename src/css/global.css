@@ -1,12 +1,70 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* MAIN ELEMENTS ------------------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+h1 {
+  font-size: 6.5rem;
+  text-transform: none;
+  color: #032541;
+}
+
+h2 {
+  font-size: 4rem;
+  text-transform: none;
+}
+
+h3 {
+  font-size: 2rem;
+  text-transform: none;
+}
+
 button {
   background: none;
+}
+
+footer {
+  position: relative;
+  border-top: 1px solid #888ea0;
+  margin-top: 3rem;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+blockquote {
+  color: #888ea0;
+  font-style: italic;
+  font-weight: 300 !important;
+  padding: 0.5rem;
+  margin: 2rem;
+  font-size: 1.6rem;
+  border-left: 1px solid #888ea0;
 }
 
 .margin0 {
@@ -65,17 +123,7 @@ button {
   color: #032541;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	border: 0;
-}
 
-body {
-  font-family: 'PT Sans', sans-serif;
-
-}
 
 #wrapper {
   max-width: 2000px;
@@ -131,11 +179,7 @@ body {
   top: 124px;
 }
 
-footer {
-  position: relative;
-  border-top: 1px solid #888ea0;
-  margin-top: 3rem;
-}
+
 
 .footer-inner {
   padding: 2rem 3rem;
@@ -209,29 +253,8 @@ footer {
 /* ----------------------------------------------------------------------------------------------------------- General Items */
 
 
-a {
-  text-decoration: none;
-  position: relative;
-}
 
-/* .button {
-  border-radius: 2px;
-  padding: 15px 20px;
-  background: #fff;
-  color: #032541;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 1rem;
 
-  transition: 0.3s;
-  bottom: 0;
-}
-
-.button:hover {
-  bottom: 5px;
-  box-shadow: rgba(3, 37, 65, 0.3) 0 2px 45px;
-} */
 
 .link {
   font-size: 1.2rem;
@@ -340,13 +363,7 @@ a {
   overflow: hidden;
 }
 
-img {
-  height: auto;
-  width: 100%;
-  display: block;
-  top: 0;
-  left: 0;
-}
+
 
 /* ----------------------------------------------------------------------------------------------------------- NAV Settings */
 
@@ -362,31 +379,6 @@ img {
   display: none;
 }
 
-/* #title {
-  margin: auto auto auto 0;
-  padding: 0 8px;
-  font-size: 7px !important;
-  background: #032541c5;
-  color: #fff;
-}
-
-#logo {
-  height: 34px;
-  width: 34px;
-  float: left;
-  margin-right: 15px;
-}
-
-
-#title>h1 {
-  font-family: "Source Sans Pro";
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  line-height: 34px;
-  float: right;
-} */
 
 #nav-holder>ul {
   display: flex;
@@ -519,7 +511,6 @@ nav, #nav {
 
   h1 {
     font-size: 4.5rem !important;
-
   }
 
   .emoji-lg {
@@ -863,21 +854,7 @@ background: #fff;
 
 /* ----------------------------------------------------------------------------------------------------------- Icon Settings */
 
-h1 {
-  font-size: 6.5rem;
-  text-transform: none;
-  color: #032541;
-}
 
-h2 {
-  font-size: 4rem;
-  text-transform: none;
-}
-
-h3 {
-  font-size: 2rem;
-  text-transform: none;
-}
 
 .copy--large {
   font-size: 2rem;
@@ -917,15 +894,6 @@ h3 {
 
 }
 
-blockquote {
-  color: #888ea0;
-  font-style: italic;
-  font-weight: 300 !important;
-  padding: 0.5rem;
-  margin: 2rem;
-  font-size: 1.6rem;
-  border-left: 1px solid #888ea0;
-}
 
 .border-button {
   padding: 1rem 2rem;
@@ -1113,3 +1081,5 @@ blockquote {
   color: #033541;
   border-left: 3px solid #032541;
 }
+
+
