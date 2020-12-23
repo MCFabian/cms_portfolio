@@ -9,13 +9,6 @@ button {
   background: none;
 }
 
-:root {
-  --blue: #8dffff;
-  --red: #f2021c;
-  --darkred: #df071d;
-  --transred: #f2021a17;
-}
-
 .margin0 {
   margin: 0 !important;
 }
