@@ -16,7 +16,8 @@
 		<link rel="stylesheet" type="text/css" href="src/css/global.css">
 		<link rel="stylesheet" type="text/css" href="src/css/page.css">
 		<link rel="stylesheet" type="text/css" href="src/css/hamburger.css">
-		<link rel="stylesheet" type="text/css" href="src/css/vars.css">
+		<link rel="stylesheet" type="text/css" href="src/css/var.css">
+		<link rel="stylesheet" type="text/css" href="src/css/media-queries.css">
 		<link rel="stylesheet" type="text/css" href="src/css/fonts.css">
 
 		<script src="src/js/jquery-3.5.1.min.js"></script>
