@@ -10,8 +10,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<link rel="shortcut icon" type="image/c-icon" sizes="500x500"  href="https://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
-		<link rel="apple-touch-icon-precomposed" sizes="500x500" href="https://www.verwaltung.fabianr.de/intranet/img/requirements/favi.png">
+		<link rel="shortcut icon" type="image/c-icon" sizes="500x500"  href="src/img/requirements/favi.png">
+		<link rel="apple-touch-icon-precomposed" sizes="500x500" href="src/img/requirements/favi.png">
 
 		<link rel="stylesheet" type="text/css" href="src/css/global.css">
 		<link rel="stylesheet" type="text/css" href="src/css/page.css">
