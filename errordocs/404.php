@@ -11,6 +11,8 @@
 <link rel="stylesheet" type="text/css" href="../src/css/projects.css">
 <link rel="stylesheet" type="text/css" href="../src/css/hamburger.css">
 <link rel="stylesheet" type="text/css" href="src/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="../src/css/var.css">
+<link rel="stylesheet" type="text/css" href="src/css/media-queries.css">
 
 </head>
 
