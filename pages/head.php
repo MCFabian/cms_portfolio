@@ -25,35 +25,35 @@
 		<script src="src/js/jquery-3.5.1.min.js"></script>
 
 	</head>
-<body id="bodyme" class="slide-in-fwd-center ">
-	<div id="overlay"></div>
-	<div id="wrapper">
-			<nav id="nav">
-				<ul>
-					<?php getmenu();?>
-				</ul>
-
-				<div id="quick-contact">
-					<i class="icon">mail_outline</i>
-					Projektanfragen und Kontakt: <a href="mailto:hello@fabianr.de">hello@fabianr.de</a>
-				</div>
-				<div id="inner-footer">
+	<body id="bodyme" class="slide-in-fwd-center ">
+		<div id="overlay"></div>
+		<div id="wrapper">
+				<nav id="nav">
 					<ul>
-						<li>Urheberrecht Fabian Rauer <?php echo date("Y"); ?></li>
-					</ul> 
+						<?php getmenu();?>
+					</ul>
+
+					<div id="quick-contact">
+						<i class="icon">mail_outline</i>
+						Projektanfragen und Kontakt: <a href="mailto:hello@fabianr.de">hello@fabianr.de</a>
+					</div>
+					<div id="inner-footer">
+						<ul>
+							<li>Urheberrecht Fabian Rauer <?php echo date("Y"); ?></li>
+						</ul> 
+					</div>
+				</nav>
+				<!--< NAV-HOLDER>-->
+				<div id="nav-holder">
+					<ul>
+						<li>
+							<button onclick="toggleMenu()" id="bb-btn" class="hamburger hamburger--minus toogle" type="button">
+								<span class="hamburger-box">
+								<span class="hamburger-inner"></span>
+								</span>
+							</button>
+						</li>
+					</ul>
 				</div>
-			</nav>
-			<!--< NAV-HOLDER>-->
-			<div id="nav-holder">
-				<ul>
-					<li>
-						<button onclick="toggleMenu()" id="bb-btn" class="hamburger hamburger--minus toogle" type="button">
-							<span class="hamburger-box">
-							<span class="hamburger-inner"></span>
-							</span>
-						</button>
-					</li>
-				</ul>
-			</div>
 
 
