@@ -1,9 +1,9 @@
     <footer>
-        <div class="footer-inner ">
+        <div class="footer-inner">
             <ul>
-                <li><h3>Development Stage</h3></li>
                 <?php footer(); ?>
             </ul>
+            <a href="#page-content" class="icon">keyboard_arrow_up</a>
         </div>
     </footer>
 </body>

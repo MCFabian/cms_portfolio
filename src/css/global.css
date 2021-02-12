@@ -24,7 +24,7 @@ a {
 }
 
 h1 {
-  font-size: 6.5rem;
+  font-size: 4.5rem;
   text-transform: none;
   color: #032541;
 }
@@ -43,11 +43,7 @@ button {
   background: none;
 }
 
-footer {
-  position: relative;
-  border-top: 1px solid #888ea0;
-  margin-top: 3rem;
-}
+
 
 img {
   height: auto;
@@ -179,23 +175,47 @@ blockquote {
   top: 124px;
 }
 
-
+footer {
+  position: relative;
+  background-color: var(--text);
+  margin-top: 3rem;
+}
 
 .footer-inner {
-  padding: 2rem 3rem;
+  padding: 1rem 3rem;
   width: 65%;
   margin: auto;
+  align-content: space-between;
+  display: flex;
+  display: -ms-flexbox;
+}
+
+.footer-inner > a {
+  padding: 4px;
+  border-radius: 2px;
+  background-color: #fff;
+  text-decoration: none;
+  color: var(--text);
 }
 
 .footer-inner >ul  {
   list-style: none;
   margin: 0 auto auto auto;
   padding: 0 30px;
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+
+.footer-inner >ul li {
+  margin: auto 15px;
 }
 
 .footer-inner >ul > li > h3 {
   font-weight: 700;
-  color: #032541;
+  color: #d5d7db;
   font-size: 20px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -203,20 +223,17 @@ blockquote {
 }
 
 .footer-inner >ul > li > a {
-  font-weight: 400;
-  color: #727680;
+  color: #d5d7db;
   font-size: 15px;
   line-height: 1.8;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
+  font: bold;
 }
 
 .footer-inner >ul > li > a:hover {
-  color: var(--red);
+  color: #fff;
 }
-
-
-
 
 .footer-outer {
   padding: 2rem 75px;
