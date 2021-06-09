@@ -2,7 +2,8 @@
 <head>
     <title>Arbeiten</title>
 </head>
-<?php include ('pages/head.php'); ?>
+    
+<?php  require_once('pages/head.php'); ?>
 <?php cookie(1); ?> 
         <div id="page-content">
             <div class="grid">
