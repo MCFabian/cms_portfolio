@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<?php include_once ('functions.php'); ?>
+		<?php require_once ('functions.php'); ?>
 
 		<meta charset="utf-8">  
 		<meta name="language" content="deutschland">
